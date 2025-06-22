@@ -1,0 +1,35 @@
+
+name: flappy_bird_ads
+description: Flappy Bird com skins - Projeto de Computação Móvel
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.2
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flappybird.png
+    - assets/FlappyRed.png
+    - assets/FlappyBug.png
+    - assets/FlappyDragon.png
+    - assets/pipetop.png
+    - assets/pipebottom.png
+    - assets/background.png
+    - assets/ground.png
+    - assets/pipes.png
+    - assets/audio/background.mp3
+
+
